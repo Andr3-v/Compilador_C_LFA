@@ -1,0 +1,11 @@
+# Archivos generados por el build
+ccheck
+*.o
+lex.yy.c
+parser.tab.c
+parser.tab.h
+parser.output
+
+# Salidas de ejecución (los casos finales de entrega se agregan a mano con git add -f)
+salidas/*
+!salidas/.gitkeep

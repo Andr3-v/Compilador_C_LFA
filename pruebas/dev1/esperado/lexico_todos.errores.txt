@@ -1,0 +1,14 @@
+pruebas/dev1/lexico_todos.c:2:1: error[LEX]: directiva no soportada '#define' (solo se admite #include)
+pruebas/dev1/lexico_todos.c:3:1: error[LEX]: #include mal formado: se esperaba <nombre.h> o "nombre.h"
+pruebas/dev1/lexico_todos.c:5:13: error[LEX]: número mal formado '9abc'
+pruebas/dev1/lexico_todos.c:6:15: error[LEX]: número mal formado '3.'
+pruebas/dev1/lexico_todos.c:7:15: error[LEX]: número mal formado '1.2.3'
+pruebas/dev1/lexico_todos.c:8:15: error[LEX]: carácter inválido '@'
+pruebas/dev1/lexico_todos.c:9:14: error[LEX]: literal char vacío ''
+pruebas/dev1/lexico_todos.c:10:14: error[LEX]: literal char con más de un carácter 'ab'
+pruebas/dev1/lexico_todos.c:11:14: error[LEX]: literal char sin cerrar
+pruebas/dev1/lexico_todos.c:12:12: error[LEX]: cadena sin cerrar
+pruebas/dev1/lexico_todos.c:13:9: error[LEX]: carácter inválido 'ñ'
+pruebas/dev1/lexico_todos.c:14:11: error[LEX]: carácter inválido '|'
+pruebas/dev1/lexico_todos.c:17:1: error[LEX]: comentario sin cerrar
+Fases sintáctica y semántica omitidas por errores léxicos

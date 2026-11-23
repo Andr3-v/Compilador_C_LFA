@@ -1,0 +1,2 @@
+pruebas/dev1/sintactico_llave.c:8:1: error[SYN]: se esperaba 'int', 'float', 'char', 'bool', ... y se encontró fin de archivo
+Fase semántica omitida por errores sintácticos
